@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	
+	<!-- 定義模板 -->
+	<definition name="template-main" template="/WEB-INF/jsp/layouts/main.jsp">
+		<put-attribute name="title" value="main" />
+		<put-attribute name="header" value="/WEB-INF/jsp/tiles/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/jsp/tiles/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/tiles/footer.jsp" />
+	</definition>
+	<!-- index -->
+	<definition name="index" extends="template-main">
+		<put-attribute name="title" value="index" />
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+	</definition>
+	<!-- ajax-add-page -->
+	<definition name="ajax-add-page" extends="template-main">
+		<put-attribute name="title" value="ajax-add-page" />
+		<put-attribute name="body" value="/WEB-INF/jsp/page/ajax-add-page.jsp" />
+	</definition>
+	
+</tiles-definitions>

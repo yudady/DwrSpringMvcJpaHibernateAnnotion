@@ -1,0 +1,47 @@
+/* main.css */
+html {
+	background: #f9f9f9;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	background: #f9f9f9 top center repeat-x repeat-y;
+	font-size:60px;
+	font-family: Times, TimesNR, 'New Century Schoolbook', Georgia;
+	min-width: 800px;
+	min-height:1200px;
+}
+
+body #header-tiles {
+	min-height:200px;
+	background-color: #e5efc5;
+}
+
+body #body-tiles {
+	min-height:1000px;
+	background-color: #9F8158;
+}
+
+body #menu-tiles {
+	float: left;
+	width: 20%;
+}
+
+body #content-tiles {
+	float: left;
+	width: 80%;
+	background-color: #FFFFFF;
+	
+}
+
+body div#footer-tiles {
+	clear: both;
+	background: #b6b6b6;
+	border-top: 10px solid #fff;
+	border-bottom: 10px solid #fff;
+}
