@@ -1,4 +1,4 @@
-package com.tommy.demo.controller;
+package com.tommy.demo.controller.menubar;
 
 import java.io.IOException;
 
