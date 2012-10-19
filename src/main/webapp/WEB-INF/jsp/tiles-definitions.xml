@@ -18,9 +18,9 @@
 		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
 	</definition>
 	<!-- ajax-add-page -->
-	<definition name="ajax-add-page" extends="template-main">
+	<definition name="ajax" extends="template-main">
 		<put-attribute name="title" value="ajax-add-page" />
-		<put-attribute name="body" value="/WEB-INF/jsp/page/ajax-add-page.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/page/ajax.jsp" />
 	</definition>
 	
 </tiles-definitions>

@@ -11,29 +11,20 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 @Entity
 @Table(name = "person")
 public class Person {
+	
 	@Id
 	@GeneratedValue
 	@Column(name = "Id")
-	private int id;
+	private Long id;
 
 	@Column(name = "Name")
 	private String name;
 
-	public Person() {
-
-	}
-
-	public Person(int id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
-
-	public int getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -49,6 +40,5 @@ public class Person {
 	public String toString() {
 		return ToStringBuilder.reflectionToString(this);
 	}
-	
-	
+
 }

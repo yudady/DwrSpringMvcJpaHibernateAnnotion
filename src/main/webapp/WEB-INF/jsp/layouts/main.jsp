@@ -17,7 +17,7 @@
 	-->
 	<link rel="stylesheet" href='<c:url value="/" /><spring:theme code="css"/>' type="text/css" />
 	
-	<script type="text/javascript" src='<c:url value="/resources/js/common/jquery-1.4.min.js" />'></script>
+	<script type="text/javascript" src='<c:url value="/resources/js/common/jquery-1.8.2.js" />'></script>
 	<script type="text/javascript" src='<c:url value="/resources/js/common/jquery.log.js" />'></script>
 	<script type="text/javascript" src='<c:url value="/resources/js/common/json.min.js" />'></script>
 	

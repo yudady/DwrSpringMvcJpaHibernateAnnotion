@@ -30,4 +30,10 @@ public class PersonServiceImpl implements PersonService {
 		personDao.persistPerson(person);
 	}
 
+	@Override
+	public Person query(String id) {
+		return personDao.find(Person.class, Long.parseLong(id));
+		
+	}
+
 }

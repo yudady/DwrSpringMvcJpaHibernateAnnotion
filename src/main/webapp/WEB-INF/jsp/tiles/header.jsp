@@ -43,8 +43,6 @@
 	<div>
 		<a href="console">資料庫</a>
 	</div>
-	<div>
-		<a href="main/ajax/add">main/ajax/add</a>
-	</div>
+
 </body>
 </html>
